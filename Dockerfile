@@ -1,6 +1,5 @@
 FROM python:3.6-alpine
 
-WORKDIR /opt
 COPY app.py /
 RUN pip install flask==1.1.2
 
