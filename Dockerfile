@@ -9,4 +9,4 @@ EXPOSE 8080
 ENV ODOO_URL ""
 ENV PGADMIN_URL ""
 
-ENTRYPOINT ["python", "/app.py"]
+ENTRYPOINT ["python", "./app.py"]
