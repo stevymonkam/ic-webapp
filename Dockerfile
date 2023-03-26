@@ -5,7 +5,7 @@ RUN pip install flask==1.1.2
 
 EXPOSE 8080
 
-ENV ODOO_URL "https://hub.docker.com/_/odoo"
-ENV PGADMIN_URL "https://hub.docker.com/r/dpage/pgadmin4/"
+ENV ODOO_URL "https://www.odoo.com/"
+ENV PGADMIN_URL " https://www.pgadmin.org/"
 
 ENTRYPOINT ["python", "./app.py"]
